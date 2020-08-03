@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/bars?style=solid" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <!--nav bar----------------->
+        <nav>
+            <a href="index.html" class="logo">PORTFOLIO</a>
+            <!--menu---------------->
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <!--bars-------------------->
+            <div class="toggle"></div>
+        </nav>
+        <!--text------------------------>
+        <div class="text-container">
+            <p>Hi,</p>
+            <p>I'M NATHAN</p>
+            <p>I like to make things online <br> & play video games</p>
+            <a href="mailto:n.teakle5071@gmail.com">
+                <button class="hire-btn">Hire Me</button>
+            </a>
+            <a href="resume.png" download="resume.png">
+                <button class="down-resume">Download Resume</button>
+            </a>
+        </div>
+        <!--image----------------------->
+        <img src="image.png" class="model" alt="model">
+
+
+    </section>
+    <!--about section------------------->
+    <div class="about-container">
+        <!--about image--------------------->
+        <img src="about-image.png" class="about-image">
+        <!--about text---------------------->
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Full-Stack Developer & Software Engineer</p>
+            <p>Hello, my name is Nathan Teakle. I enjoy creating, designing and engineering websites,
+                applications and databases. If anything you see on this webpage catches your attention please
+                feel free to contact me.</p>
+            <p>I am currently studying Software Engineering & Full-Stack Development through the University of
+                Adelaide as part of their 2020 Coding Bootcamp which is a 6 month high intensity coding experience
+                that aims to prepare students for real world work.</p>
+
+        </div>
+    </div>
+    <!--services------------------------------->
+    <div class="services">
+        <!--text--------------------------------->
+        <div class="services-text">
+            <p>Experience</p>
+            <p>Junior Role & Casual Retail</p>
+            <p>At this current point in time I am revamping the CoreHealth Physiotherapy & Pilates website.
+                For me, this is the first step in what I hope to be a career in the Software & Digital World.
+                Outside of Software Engineering I have experience in casual retail, warehousing & preparing orders
+                for AusPost. All of this happened during my stay at Skye Cellars.
+            </p>
+
+        </div>
+        <!--box-------------------------------->
+        <div class="box-container">
+            <div class="box-1">
+                <span>1st</span>
+                <p class="heading">Avaliablity</p>
+                <p class="details">Currently, I am avaliable to work anywhere between five or seven days a week, 
+                    as my studies conclude on the 13th of August 2020.</p>
+            </div>
+
+            <div class="box-2">
+                <span>2nd</span>
+                <p class="heading">Education</p>
+                <p class="details">Graduated Saint Ignatius High School in 2019. Commenced the 2020 Coding
+                    Bootcamp through The University of Adelaide at the start of this year.</p>
+            </div>
+
+            <div class="box-3">
+                <span>3rd</span>
+                <p class="heading">Goals</p>
+                <p class="details">To become a Junior Developer by the end of the year. I'm itching with
+                    excitment to start my professional career working with Webpages, Applications, Databases & Clients.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--footer------------------------------>
+    <footer>
+        <p>Thank You For Your Time</p>
+        <p>Hopefully this webpage gave you enough information to learn a bit more about
+            me, my goals and work.</p>
+        <!--social------------------------------>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100009198445114"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/nathan.teakle/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/nathan-teakle-0a4b3b1a1/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/NathanTeakle"><i class="fab fa-github"></i></a>
+        </div>
+        <!--copyright-------------------------->
+        <p class="copyright">Website Created by Nathan Teakle, 2020.</p>
+    </footer>
+
+    <div class="a-social-b">
+        <a href="https://www.facebook.com/profile.php?id=100009198445114"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/nathan.teakle/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nathan-teakle-0a4b3b1a1/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/NathanTeakle"><i class="fab fa-github"></i></a>
+    </div>
+
+    <script type="text/javascript" src="JQuery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/bars?style=solid" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <!--nav bar----------------->
+        <nav>
+            <a href="index.html" class="logo">PORTFOLIO</a>
+            <!--menu---------------->
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <!--bars-------------------->
+            <div class="toggle"></div>
+        </nav>
+
+        <!------------------>
+        <div class="contact-form">
+            <h1>Contact Me</h1>
+            <div class="txtb">
+                <label>Full Name :</label>
+                <input type="text" name="" value="" placeholder="Enter Your Name">
+            </div>
+
+            <div class="txtb">
+                <label>Email :</label>
+                <input type="email" name="" value="" placeholder="Enter Your Email">
+            </div>
+
+            <div class="txtb">
+                <label>Phone Number :</label>
+                <input type="text" name="" value="" placeholder="Enter Your Phone Number">
+            </div>
+
+            <div class="txtb">
+                <label>Message :</label>
+                <textarea></textarea>
+            </div>
+            <a href="mailto:n.teakle5071@gmail.com" class="btn">Send</a>
+        </div>
+
+        <!--social------------------------------>
+        <div class="a-social-b">
+            <a href="https://www.facebook.com/profile.php?id=100009198445114"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/nathan.teakle/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/nathan-teakle-0a4b3b1a1/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/NathanTeakle"><i class="fab fa-github"></i></a>
+        </div>
+
+        <!--JavaScript-------------------------->
+        <script type="text/javascript" src="JQuery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.toggle').click(function () {
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
+
+</body>
+
+</html>
